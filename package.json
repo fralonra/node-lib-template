@@ -1,0 +1,24 @@
+{
+  "name": "node-lib-template",
+  "version": "1.0.0",
+  "description": "A template for node.js library",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard --fix src/*.js test/*.js | snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fralonra/node-lib-template.git"
+  },
+  "keywords": [],
+  "author": "zoron (https://github.com/fralonra/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fralonra/node-lib-template/issues"
+  },
+  "homepage": "https://github.com/fralonra/node-lib-template#readme",
+  "devDependencies": {
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1"
+  }
+}
